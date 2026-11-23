@@ -5,7 +5,9 @@ const Exam3 = () => {
 
   const onChangeInput=(e)=>{
     setInput(e.target.value)
-
+  }
+  const resetButton=()=>{
+    setInput('')
   }
   
   return (
@@ -13,6 +15,7 @@ const Exam3 = () => {
       <input type="text" 
       onChange={onChangeInput}
       value={input} />
+      <button onClick={resetButton}>reset</button>
     </div>
   )
 }
