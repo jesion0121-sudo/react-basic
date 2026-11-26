@@ -1,18 +1,21 @@
 import React from 'react';
 import './App.css'
-import SquareCalc from './components/SquareCalc';
-import SortTableList from './components/SortTableList';
-import PeopleList from './components/PeopleList';
-
+import UserList from './components/UserList';
+import TodoList from './components/TodoList';
+import UserDetail from './components/UserDetail';
+import DummyCart from './components/DummyCart';
+import DummyRecipe from './components/DummyRecipe';
 
 
 function App() {
 
   return (
     <main>
-      <PeopleList />
-      {/* <SortTableList /> */}
-      {/* <SquareCalc /> */}
+      <DummyRecipe />
+      {/* <DummyCart /> */}
+      {/* <UserDetail /> */}
+      {/* <TodoList /> */}
+      {/* <UserList /> */}
     </main>
 
   );
